@@ -5,8 +5,7 @@
 int levelCurrent = 0;
 int indexCurrent = 0;
 
-
--(id)initWithInputArray:(NSMutableArray *)inputs{
+-(id)initWithInputArray:(NSArray *)inputs{
     self = [super init];
     if (self) {
         inputArray = inputs;

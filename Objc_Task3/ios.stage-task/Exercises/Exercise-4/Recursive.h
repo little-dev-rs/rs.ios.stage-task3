@@ -3,11 +3,11 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Recursive : NSObject {
-    NSMutableArray* inputArray;
+    NSArray* inputArray;
     @public NSMutableArray* results;
 }
 
-- (id)initWithInputArray:(NSMutableArray *)inputs;
+- (id)initWithInputArray:(NSArray *)inputs;
 - (void)move;
 @end
 
